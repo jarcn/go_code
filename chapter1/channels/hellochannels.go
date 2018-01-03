@@ -8,6 +8,7 @@ import (
 var wg sync.WaitGroup
 
 func printer(ch chan int) {
+	//test git push code
 	for i := range ch {
 		fmt.Printf("Received %d ", i)
 	}
